@@ -10,6 +10,11 @@
   </head>
 
   <body>
+    <div data-controller="dark-mode" class="custom-control custom-switch">
+      <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+      <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+    </div>
+
     <div class='container'>
       <%= link_to 'Home', root_path %>
       <%= link_to 'Posts', posts_path %>
