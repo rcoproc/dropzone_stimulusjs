@@ -11,12 +11,15 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+  2.6.5
 
 * System dependencies
+  Rails 6.0.3.4
 
 * Configuration
 
 * Database creation
+  rails db:setup
 
 * Database initialization
 
